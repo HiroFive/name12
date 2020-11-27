@@ -27,11 +27,11 @@ const Finish_screen = ({ array, length1 }) => {
     }
     let result = 'Гетеросексуал', score = calculete_score();
     function show() {
-        if (score >= 5.5 && score < 58) {
+        if (score >= 6.5 && score < 58) {
             result = 'Гей';
         }
         else if (score >= 58) {
-            result = 'Чмо з кологков';
+            result = 'Чмо з колонков';
         }
         // console.log(result_description.length);
         // console.log(score);
